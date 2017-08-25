@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7793820D1F426F020098CCBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7793820C1F426F020098CCBE /* main.m */; };
-		779382801F43BE800098CCBE /* ArrayUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7793827F1F43BE800098CCBE /* ArrayUtility.m */; };
+		7793831E1F4FB7580098CCBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7793831D1F4FB7580098CCBE /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		779382071F426F020098CCBE /* CopyFiles */ = {
+		779383181F4FB7580098CCBE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		779382091F426F020098CCBE /* Find the Largest Number in an Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Find the Largest Number in an Array"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7793820C1F426F020098CCBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7793827E1F43BE800098CCBE /* ArrayUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayUtility.h; sourceTree = "<group>"; };
-		7793827F1F43BE800098CCBE /* ArrayUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayUtility.m; sourceTree = "<group>"; };
+		7793831A1F4FB7580098CCBE /* ToyotasAreCarsToo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToyotasAreCarsToo; sourceTree = BUILT_PRODUCTS_DIR; };
+		7793831D1F4FB7580098CCBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		779382061F426F020098CCBE /* Frameworks */ = {
+		779383171F4FB7580098CCBE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		779382001F426F020098CCBE = {
+		779383111F4FB7580098CCBE = {
 			isa = PBXGroup;
 			children = (
-				7793820B1F426F020098CCBE /* Find the Largest Number in an Array */,
-				7793820A1F426F020098CCBE /* Products */,
+				7793831C1F4FB7580098CCBE /* ToyotasAreCarsToo */,
+				7793831B1F4FB7580098CCBE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7793820A1F426F020098CCBE /* Products */ = {
+		7793831B1F4FB7580098CCBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				779382091F426F020098CCBE /* Find the Largest Number in an Array */,
+				7793831A1F4FB7580098CCBE /* ToyotasAreCarsToo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7793820B1F426F020098CCBE /* Find the Largest Number in an Array */ = {
+		7793831C1F4FB7580098CCBE /* ToyotasAreCarsToo */ = {
 			isa = PBXGroup;
 			children = (
-				7793820C1F426F020098CCBE /* main.m */,
-				7793827E1F43BE800098CCBE /* ArrayUtility.h */,
-				7793827F1F43BE800098CCBE /* ArrayUtility.m */,
+				7793831D1F4FB7580098CCBE /* main.m */,
 			);
-			path = "Find the Largest Number in an Array";
+			path = ToyotasAreCarsToo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		779382081F426F020098CCBE /* Find the Largest Number in an Array */ = {
+		779383191F4FB7580098CCBE /* ToyotasAreCarsToo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 779382101F426F020098CCBE /* Build configuration list for PBXNativeTarget "Find the Largest Number in an Array" */;
+			buildConfigurationList = 779383211F4FB7580098CCBE /* Build configuration list for PBXNativeTarget "ToyotasAreCarsToo" */;
 			buildPhases = (
-				779382051F426F020098CCBE /* Sources */,
-				779382061F426F020098CCBE /* Frameworks */,
-				779382071F426F020098CCBE /* CopyFiles */,
+				779383161F4FB7580098CCBE /* Sources */,
+				779383171F4FB7580098CCBE /* Frameworks */,
+				779383181F4FB7580098CCBE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Find the Largest Number in an Array";
-			productName = "Find the Largest Number in an Array";
-			productReference = 779382091F426F020098CCBE /* Find the Largest Number in an Array */;
+			name = ToyotasAreCarsToo;
+			productName = ToyotasAreCarsToo;
+			productReference = 7793831A1F4FB7580098CCBE /* ToyotasAreCarsToo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		779382011F426F020098CCBE /* Project object */ = {
+		779383121F4FB7580098CCBE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Olga;
 				TargetAttributes = {
-					779382081F426F020098CCBE = {
+					779383191F4FB7580098CCBE = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 779382041F426F020098CCBE /* Build configuration list for PBXProject "Find the Largest Number in an Array" */;
+			buildConfigurationList = 779383151F4FB7580098CCBE /* Build configuration list for PBXProject "ToyotasAreCarsToo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 779382001F426F020098CCBE;
-			productRefGroup = 7793820A1F426F020098CCBE /* Products */;
+			mainGroup = 779383111F4FB7580098CCBE;
+			productRefGroup = 7793831B1F4FB7580098CCBE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				779382081F426F020098CCBE /* Find the Largest Number in an Array */,
+				779383191F4FB7580098CCBE /* ToyotasAreCarsToo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		779382051F426F020098CCBE /* Sources */ = {
+		779383161F4FB7580098CCBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				779382801F43BE800098CCBE /* ArrayUtility.m in Sources */,
-				7793820D1F426F020098CCBE /* main.m in Sources */,
+				7793831E1F4FB7580098CCBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7793820E1F426F020098CCBE /* Debug */ = {
+		7793831F1F4FB7580098CCBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +174,7 @@
 			};
 			name = Debug;
 		};
-		7793820F1F426F020098CCBE /* Release */ = {
+		779383201F4FB7580098CCBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,14 +215,14 @@
 			};
 			name = Release;
 		};
-		779382111F426F020098CCBE /* Debug */ = {
+		779383221F4FB7580098CCBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		779382121F426F020098CCBE /* Release */ = {
+		779383231F4FB7580098CCBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -238,25 +232,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		779382041F426F020098CCBE /* Build configuration list for PBXProject "Find the Largest Number in an Array" */ = {
+		779383151F4FB7580098CCBE /* Build configuration list for PBXProject "ToyotasAreCarsToo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7793820E1F426F020098CCBE /* Debug */,
-				7793820F1F426F020098CCBE /* Release */,
+				7793831F1F4FB7580098CCBE /* Debug */,
+				779383201F4FB7580098CCBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		779382101F426F020098CCBE /* Build configuration list for PBXNativeTarget "Find the Largest Number in an Array" */ = {
+		779383211F4FB7580098CCBE /* Build configuration list for PBXNativeTarget "ToyotasAreCarsToo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				779382111F426F020098CCBE /* Debug */,
-				779382121F426F020098CCBE /* Release */,
+				779383221F4FB7580098CCBE /* Debug */,
+				779383231F4FB7580098CCBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 779382011F426F020098CCBE /* Project object */;
+	rootObject = 779383121F4FB7580098CCBE /* Project object */;
 }

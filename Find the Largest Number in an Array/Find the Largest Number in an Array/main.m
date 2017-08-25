@@ -7,24 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ArrayUtility.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSArray *myArray = @[@44, @5, @6, @88, @33];
-        NSNumber *largestNumber = [myArray objectAtIndex:0];
-       
         
-        for ( int i = 0; i < [myArray count]; i++) {
-             NSNumber *currentNumber = [myArray objectAtIndex:i];
-            
-            if
-                (largestNumber < currentNumber)
-                largestNumber = currentNumber;
-                
-        }
+        ArrayUtility *findLargestNumber = [[ArrayUtility alloc]init];
+        NSNumber *l = [findLargestNumber largestNumber:myArray];
+        NSLog(@"The largest number in array is: %@", l);
         
-        NSLog(@"The Largest Number in array is: %@", largestNumber);
-    }
+        ArrayUtility *findSmallestNumber = [[ArrayUtility alloc]init];
+        NSNumber *s = [findSmallestNumber smallestNumber:myArray];
+        NSLog(@"The smallest number is array is: %@", s);
+        
+       }
     return 0;
 }
